@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1281568207}
-  m_IndirectSpecularColor: {r: 0.17783315, g: 0.22265163, b: 0.30479953, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2445,8 +2445,8 @@ MonoBehaviour:
       helperStructureLevelId: 4
       shaperOffset: 0
       _position: 0.5
-      parentOffset: {x: -0.0052817166, y: -0.007508871, z: -0.009412409}
-      originOffset: {x: -0.061892245, y: 4.7491336, z: -0.067999735}
+      parentOffset: {x: -0.013238228, y: 0.0069337883, z: 0.0063044406}
+      originOffset: {x: 0.98676175, y: 5.0069337, z: 1.0063039}
       _maxGirth: 0.13463233
       _minGirth: 0.02
       girthCurve:
@@ -2557,8 +2557,8 @@ MonoBehaviour:
       helperStructureLevelId: 1
       shaperOffset: 0
       _position: 0.5
-      parentOffset: {x: 0.01584789, y: -0.016740642, z: 0.01625615}
-      originOffset: {x: 0.00051230285, y: 1.9832593, z: 0.021151034}
+      parentOffset: {x: -0.0007923709, y: 0.008882868, z: -0.008090498}
+      originOffset: {x: 0.9992076, y: 1.0088829, z: 0.9919095}
       _maxGirth: 0.13463233
       _minGirth: 0.02
       girthCurve:
@@ -2670,7 +2670,7 @@ MonoBehaviour:
       shaperOffset: 0
       _position: 1
       parentOffset: {x: 0, y: 0, z: 0}
-      originOffset: {x: 0.27833506, y: 3.5412822, z: 0.79283345}
+      originOffset: {x: 1.2770303, y: 2.5669057, z: 1.763592}
       _maxGirth: 0.13463233
       _minGirth: 0.02
       girthCurve:
@@ -3839,7 +3839,7 @@ MonoBehaviour:
   _localPipeline: {fileID: 2030728025}
   lastUndoProcessed: 41
   prefabPath: 
-  _instanceId: 78730
+  _instanceId: 69140
 --- !u!4 &1457250593
 Transform:
   m_ObjectHideFlags: 0
