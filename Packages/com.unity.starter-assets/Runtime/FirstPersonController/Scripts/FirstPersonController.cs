@@ -159,6 +159,10 @@ namespace StarterAssets
 			if (Physics.Raycast(_mainCamera.transform.position, _mainCamera.transform.forward, out hit, interactionDistance))
 			{
 				var interactableObject = hit.collider.GetComponent<InteractableObject>();
+				if (interactableObject == null)
+				{
+					interactableObject = hit.collider.GetComponentInParent<InteractableObject>();
+				}
 				if (interactableObject != null)
 				{
 					currentHeldObject = interactableObject;
@@ -179,6 +183,7 @@ namespace StarterAssets
 					interactableObject.transform.localPosition = Vector3.zero;
 					interactableObject.transform.localRotation = Quaternion.identity;
 				}
+				
 			}
 		}
 		
